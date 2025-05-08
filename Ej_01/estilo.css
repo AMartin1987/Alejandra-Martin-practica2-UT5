@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color:darkslategrey;
+  }
+  
+  #contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    color:rgb(197, 178, 218);
+}
+  
+  table {
+    background: white;
+  }
+  
+  caption {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+  
+  th, td {
+    color:black;
+    border: 1px solid #ccc;
+    padding: 0.4rem 0.6rem;
+  }
+  
+  .destacado {
+    background-color: #f7c0e5;
+  }
+  

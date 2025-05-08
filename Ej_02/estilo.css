@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #contenedorChat {
+    width: 90%;
+    max-width: 900px;
+    height: 60vh;
+    background: #575757;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  #tituloChat {
+    background-color: #4c82af;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  #mensajes {
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mensaje {
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 18px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-size: 18px;
+  }
+  
+  .emisor {
+    background-color: #d1f0d1;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .receptor {
+    background-color: #d6d1f0;
+    align-self: flex-start;
+    text-align: left;
+  }
+  
